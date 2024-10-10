@@ -3,8 +3,27 @@ body {
   margin: 0;
 }
 
-#map,
-body,
-html {
+html, body, #map {
   height: 100%;
+}
+
+.legend {
+  background: white;
+  padding: 10px;
+  line-height: 18px;
+  color: #555;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.8;
 }
